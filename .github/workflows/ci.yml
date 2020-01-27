@@ -65,7 +65,7 @@ jobs:
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       - name: Open Issue
-        if: faliure() && github.event_name == 'pull_request'
+        if: failure() && github.event_name == 'pull_request'
         run: |
           curl --request POST \
           --url https://api.github.com/repos/${{ github.repository }}/issues \
