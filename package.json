@@ -48,7 +48,7 @@
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^4.2.1",
     "prettier": "1.19.1",
-    "semantic-release": "^16.0.3"
+    "semantic-release": "^17.2.3"
   },
   "config": {
     "commitizen": {
